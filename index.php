@@ -59,7 +59,7 @@
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Estelle clicks on Get Directions button inset on map.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Yelp's server acquires driving directions from third party website and provides same to Estelle in map form.</p>
 		<br/><b>Backend of Assignment</b>
-		<br/><u>Entities:</u>
+		<br/><h5>Entities:</h5>
 		<br/>&#160;&#160;&#160;User(s)
 		<br/>&#160;&#160;&#160;Restaurant(s)
 		<br/>&#160;&#160;&#160;Third Party Websites
