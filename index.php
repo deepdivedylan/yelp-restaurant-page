@@ -18,6 +18,20 @@
 		have Yelp identify nearby businesses.</br>
 		<br>&#160;&#160;&#160;&#149; The typical Yelp user is very <i>opinionated</i>.</br>
 		<br><u>Main Use Cases</u></br>
-
+		<br>&#160;&#160;&#160;<b>1.)</b> Search for restaurant by name (static use case)</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow user to find specific restaurant.</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: User, Restaurant</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: User has an account. Restaurant has a page.</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Basic Pattern:</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. User browses to Yelp page for preferred town.</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. User types in name of specific restaurant in search field></br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. Server searches internally for a potential match, limited geographically.</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Server returns list of possible matches, each a link.</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. User selects best match offered by server and clicks.</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Server takes user to page designated for specific restaurant.</br>
+		<br>&#160;&#160;&#160;<b>2.)</b> Find other users already known to our user. (dynamic use case)</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow user to locate other users based on other website affiliations.</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: User(s), Third Party Website(s)(ex:Facebook)</br>
+		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: Users have accounts with Yelp <i>and</i> certain third party websites.</br>
 	</body>
 </html>
