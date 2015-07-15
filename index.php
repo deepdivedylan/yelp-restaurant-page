@@ -54,6 +54,7 @@
 		<br>&#160;&#160;&#160;User(s)</br>
 		<br>&#160;&#160;&#160;Restaurant(s)</br>
 		<br>&#160;&#160;&#160;Third Party Websites</br>
+		<br><i>TO BE CONTINUED...</i>
 		<!--Next set up proper tables denoting relationships-->
 	</body>
 </html>
