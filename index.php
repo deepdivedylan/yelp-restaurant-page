@@ -49,6 +49,11 @@
 		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Server provides map with restaurant's location indicated.</br>
 		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. User clicks on Get Directions button inset on map.</br>
 		<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Server acquires driving directions from third party website and provides same to user in map form.</br>
-
+		<br><b>Backend of Assignment</b></br>
+		<br><u>Entities:</u>
+		<br>&#160;&#160;&#160;User(s)</br>
+		<br>&#160;&#160;&#160;Restaurant(s)</br>
+		<br>&#160;&#160;&#160;Third Party Websites</br>
+		<!--Next set up proper tables denoting relationships-->
 	</body>
 </html>
