@@ -2,53 +2,62 @@
 <html>
 	<head>
 		<title>Yelp Restaurant Page Data Design Project</title>
+		<link type="image/ico" href="http://s3-media2.fl.yelpcdn.com/assets/2/www/img/118ff475a341/ico/favicon.ico" rel="shortcut icon" />
+
 	</head>
 	<body>
-		<img src="yelp.jpg" alt="Yelp Logo" height="450" width="800">
-		<p><br/>Yelp is a website consisting mainly of reviews of local
-			businesses, with an emphasis on restaurants.
-		<br/>Founded in 2004 by two former PayPal employees, Yelp is now
-		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</br></p>
-		<br/><b>Frontend of Assignment</b>
-		<br/><u>Persona</u> - The typical user of Yelp is a person in their 20s or 30s.
-		<br/>&#160;&#160;&#160;&#149; There is no male or female bias here.
-		<br/>&#160;&#160;&#160;&#149; Yelp users can use the site from mobile or traditional browsers.
-		<br/>&#160;&#160;&#160;&#149; The true benefit of Yelp comes from mobile use.
-		<br/>&#160;&#160;&#160;&#149; A user can simply open the Yelp app on their smartphone and
-		have Yelp identify nearby businesses.
-		<br/>&#160;&#160;&#160;&#149; The typical Yelp user is very <i>opinionated</i>.
-		<br/><u>Main Use Cases</u>
-		<br/>&#160;&#160;&#160;<b>1.)</b> Search for restaurant by name (static use case)
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow user to find specific restaurant.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: User, Restaurant
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: User has an account. Restaurant has a page.
+		<div class="container">
+		<header>
+			<h1>Data Design Project</h1>
+			<h3>Yelp Restaurant Page</h3>
+			<h4>Trevor Rigler</h4>
+		</header>
+		<img src="yelp.jpg" alt="Yelp Logo" height="225" width="400">
+		<p>Yelp is a website consisting mainly of reviews of local
+			businesses, with an emphasis on restaurants. Founded in 2004 by two former PayPal employees, Yelp is now
+		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</p>
+		<h2>Frontend of Assignment</h2>
+		<h3>Persona</h3>
+		&#160;&#160;&#160;&#149; Our Persona is Estelle, a 30-year-old associate at an East Coast law firm.
+		<br/>&#160;&#160;&#160;&#149; Estelle frequently travels for work to cities throughout the U.S.
+		<br/>&#160;&#160;&#160;&#149; Estelle is often pressed for time when traveling and needs information about local businesses quickly.
+		<br/>&#160;&#160;&#160;&#149; Estelle uses her smart phone almost exclusively when traveling for work.
+		<br/>&#160;&#160;&#160;&#149; Estelle is single, has no kids, has a decent amount of discretionary income, and eats out frequently.
+		<br/>&#160;&#160;&#160;&#149; Estelle is fairly <i>opinionated</i>.
+		<p><br/><u>Main Use Cases</u></p><!--Deprecated but staying until I bring in current CSS technique-->
+		<p>&#160;&#160;&#160;<b>1.)</b> Search for restaurant by name (static use case)
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to find specific restaurant.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: Estelle, Restaurant
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: Estelle has an account. Restaurant has a page.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Basic Pattern:
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. User browses to Yelp page for preferred town.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. User types in name of specific restaurant in search field.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. Server searches internally for a potential match, limited geographically.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Server returns list of possible matches, each a link.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. User selects best match offered by server and clicks.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Server takes user to page designated for specific restaurant.
-		<br/>&#160;&#160;&#160;<b>2.)</b> Find other users already known to our user. (dynamic use case)
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow user to locate other users based on other website affiliations.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: User(s), Third Party Website(s)(ex:Facebook)
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: Users have accounts with Yelp <i>and</i> certain third party websites.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. User browses to Yelp page for any town.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. User clicks on Find Friends link near top of page.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. Server offers for user to log in to Facebook account.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Server accesses user's friend list on external Facebook server.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Server cross-references existing Yelp users against user's FB friend list.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. User selects from list of FB friends to whom to submit Yelp friend requests.
-		<br/>&#160;&#160;&#160;<b>3.)</b> Find map and directions to specific restaurant. (dynamic use case)
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow user to access map and directions from third party website(s).
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: User(s), Restaurant, Third Party Website(s)(ex:Google Maps)
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: User has account with Yelp. User permits Yelp to know user's location. Restaurant has page with Yelp. Restaurant is on third party website.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. User browses to Yelp page for desired restaurant.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. User clicks on Get Directions link under restaurant name.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. Server searches third party website for restaurant's location.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Server provides map with restaurant's location indicated.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. User clicks on Get Directions button inset on map.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Server acquires driving directions from third party website and provides same to user in map form.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. Estelle gets a tip from the concierge at her Miami hotel to try a Haitian restaurant called Tap Tap.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. Estelle browses to Yelp page for Miami.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. Estelle uses Yelp's main search function to find Tap Tap.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server searches internally for a potential match, limited geographically to the greater Miami area.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server returns list of possible matches, each a link.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Estelle selects best match offered by server and clicks.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Yelp's server takes Estelle to Yelp's Tap Tap page.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;7. Estelle clicks on pictures, menu, and reviews listed on Tap Tap's Yelp page..</p>
+		<p>&#160;&#160;&#160;<b>2.)</b> Allow Estelle to find other Yelp users she already knows from other sites. (dynamic use case)
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to locate other Yelp users based on other website affiliations.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: Estelle, other Yelp user(s), Third Party Website(s)(ex:Facebook)
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: Estelle and the other users have accounts with Yelp <i>and</i> certain third party websites.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. Estelle browses to any Yelp page.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. Estelle clicks on Find Friends link near top of page.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. Yelp's server offers for Estelle to log in to her Facebook account.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server accesses Estelle's friend list on external Facebook server.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Yelp's server cross-references existing Yelp users against Estelle's FB friend list.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Estelle selects from list of her FB friends to whom to submit Yelp friend requests.</p>
+		<p>&#160;&#160;&#160;<b>3.)</b> Estelle needs map and directions to Tap Tap. (dynamic use case)
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to access map and directions for Tap Tap from third party website(s).
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: Estelle, Restaurant, Third Party Website(s)(ex:Google Maps)
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: Estelle has an account with Yelp. Estelle permits Yelp to know user's location. Tap Tap has page with Yelp. Tap Tap is on third party website.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. Estelle browses to Yelp page for Tap Tap.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. Estelle clicks on Get Directions link under Tap Tap's name.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. Yelp's server searches third party website for Tap Tap's location.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server provides map with Tap Tap's location indicated.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Estelle clicks on Get Directions button inset on map.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Yelp's server acquires driving directions from third party website and provides same to Estelle in map form.</p>
 		<br/><b>Backend of Assignment</b>
 		<br/><u>Entities:</u>
 		<br/>&#160;&#160;&#160;User(s)
@@ -56,5 +65,6 @@
 		<br/>&#160;&#160;&#160;Third Party Websites
 		<br/><i>TO BE CONTINUED...</i>
 		<!--Next set up proper tables denoting relationships-->
+	</div>
 	</body>
 </html>
