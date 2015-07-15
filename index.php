@@ -36,7 +36,7 @@
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server searches internally for a potential match, limited geographically to the greater Miami area.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server returns list of possible matches, each a link.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Estelle selects best match offered by server and clicks.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Yelp's server takes Estelle to Yelp's Tap Tap page.
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Yelp's server takes Estelle to Yelp's <a href="http://www.yelp.com/biz/tap-tap-restaurant-miami-beach-2" target="_blank">Tap Tap</a> page.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;7. Estelle clicks on pictures, menu, and reviews listed on Tap Tap's Yelp page..</p>
 		<p>&#160;&#160;&#160;<b>2.)</b> Allow Estelle to find other Yelp users she already knows from other sites. (dynamic use case)
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to locate other Yelp users based on other website affiliations.
