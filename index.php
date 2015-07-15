@@ -15,7 +15,7 @@
 		<img src="yelp.jpg" alt="Yelp Logo" height="225" width="400">
 		<p>Yelp is a website consisting mainly of reviews of local
 			businesses, with an emphasis on restaurants. Founded in 2004 by two former PayPal employees, Yelp is now
-		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</p>
+		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP" target="_blank">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</p>
 		<h2>Frontend of Assignment</h2>
 		<h3>Persona</h3>
 		&#160;&#160;&#160;&#149; Our Persona is Estelle, a 30-year-old associate at an East Coast law firm.
@@ -24,7 +24,7 @@
 		<br/>&#160;&#160;&#160;&#149; Estelle uses her smart phone almost exclusively when traveling for work.
 		<br/>&#160;&#160;&#160;&#149; Estelle is single, has no kids, has a decent amount of discretionary income, and eats out frequently.
 		<br/>&#160;&#160;&#160;&#149; Estelle is fairly <i>opinionated</i>.
-		<p><br/><u>Main Use Cases</u></p><!--Deprecated but staying until I bring in current CSS technique-->
+		<h4>Main Use Cases</h4>
 		<p>&#160;&#160;&#160;<b>1.)</b> Search for restaurant by name (static use case)
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to find specific restaurant.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: Estelle, Restaurant
