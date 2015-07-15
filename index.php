@@ -3,6 +3,7 @@
 	<head>
 		<title>Yelp Restaurant Page Data Design Project</title>
 		<link type="image/ico" href="http://s3-media2.fl.yelpcdn.com/assets/2/www/img/118ff475a341/ico/favicon.ico" rel="shortcut icon" />
+		<link rel="stylesheet" href="https://bootcamp-coders.cnm.edu/~trigler/yelp-restaurant-page/style.css">
 
 	</head>
 	<body>
@@ -59,12 +60,24 @@
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Estelle clicks on Get Directions button inset on map.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Yelp's server acquires driving directions from third party website and provides same to Estelle in map form.</p>
 		<br/><b>Backend of Assignment</b>
-		<br/><h5>Entities:</h5>
+		<br/><h5>>Entities:</h5>
+			<div class="row">
+				<div class="col-md-3">
+					<table class="table-bordered table-responsive">
+						<tr><th>User</th></tr>
+						<tr><td>userId - primary key</td></tr>
+						<tr><td>email</td></tr>
+						<tr><td>password</td></tr>
+						<tr><td>picture</td></tr>
+					</table>
+				</div>
+			</div>
 		<br/>&#160;&#160;&#160;User(s)
 		<br/>&#160;&#160;&#160;Restaurant(s)
 		<br/>&#160;&#160;&#160;Third Party Websites
 		<br/><i>TO BE CONTINUED...</i>
 		<!--Next set up proper tables denoting relationships-->
+		<!--Next create CSS style sheet(s)-->
 	</div>
 	</body>
 </html>
