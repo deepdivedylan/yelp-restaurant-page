@@ -3,7 +3,7 @@
 	<head>
 		<title>Yelp Restaurant Page Data Design Project</title>
 		<link type="image/ico" href="http://s3-media2.fl.yelpcdn.com/assets/2/www/img/118ff475a341/ico/favicon.ico" rel="shortcut icon" />
-		<link rel="stylesheet" href="https://bootcamp-coders.cnm.edu/~trigler/yelp-restaurant-page/style.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 
 	</head>
 	<body>
@@ -19,12 +19,12 @@
 		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP" target="_blank">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</p>
 		<h2>Frontend of Assignment</h2>
 		<h3>Persona</h3>
-		&#160;&#160;&#160;&#149; Our Persona is Estelle, a 30-year-old associate at an East Coast law firm.
+		<p>&#160;&#160;&#160;&#149; Our Persona is Estelle, a 30-year-old associate at an East Coast law firm.
 		<br/>&#160;&#160;&#160;&#149; Estelle frequently travels for work to cities throughout the U.S.
 		<br/>&#160;&#160;&#160;&#149; Estelle is often pressed for time when traveling and needs information about local businesses quickly.
 		<br/>&#160;&#160;&#160;&#149; Estelle uses her smart phone almost exclusively when traveling for work.
 		<br/>&#160;&#160;&#160;&#149; Estelle is single, has no kids, has a decent amount of discretionary income, and eats out frequently.
-		<br/>&#160;&#160;&#160;&#149; Estelle is fairly <i>opinionated</i>.
+		<br/>&#160;&#160;&#160;&#149; Estelle is fairly <i>opinionated</i>.</p>
 		<h4>Main Use Cases</h4>
 		<p>&#160;&#160;&#160;<b>1.)</b> Search for restaurant by name (static use case)
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to find specific restaurant.
@@ -59,8 +59,8 @@
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server provides map with Tap Tap's location indicated.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Estelle clicks on Get Directions button inset on map.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Yelp's server acquires driving directions from third party website and provides same to Estelle in map form.</p>
-		<br/><b>Backend of Assignment</b>
-		<br/><h5>>Entities:</h5>
+		<h2>Backend of Assignment</h2>
+		<br/><h5>Entities:</h5>
 			<div class="row">
 				<div class="col-md-3">
 					<table class="table-bordered table-responsive">

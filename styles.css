@@ -1,0 +1,8 @@
+h1 {font-family:Arial, Helvetica, sans-serif; font-size:300%;}
+h2 {font-family:Arial, Helvetica, sans-serif; font-size:200%;}
+h3 {font-family:Arial, Helvetica, sans-serif; font-size:150%;}
+h4 {font-family:Arial, Helvetica, sans-serif; font-size:120%;}
+h5 {font-family:Arial, Helvetica, sans-serif; font-size:100%;}
+p {font-family:Arial, Helvetica, sans-serif; font-size:100%;}
+body {font-family:Arial, Helvetica, sans-serif;}
+/*the above is probably redundant, but I couldn't get it to work otherwise*/
