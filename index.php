@@ -18,12 +18,14 @@
 		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP" target="_blank">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</p>
 		<h2>Frontend of Assignment</h2>
 		<h3>Persona</h3>
-		<p>&#160;&#160;&#160;&#149; Our Persona is Estelle, a 30-year-old associate at an East Coast law firm.
-		<br/>&#160;&#160;&#160;&#149; Estelle frequently travels for work to cities throughout the U.S.
-		<br/>&#160;&#160;&#160;&#149; Estelle is often pressed for time when traveling and needs information about local businesses quickly.
-		<br/>&#160;&#160;&#160;&#149; Estelle uses her smart phone almost exclusively when traveling for work.
-		<br/>&#160;&#160;&#160;&#149; Estelle is single, has no kids, has a decent amount of discretionary income, and eats out frequently.
-		<br/>&#160;&#160;&#160;&#149; Estelle is fairly <i>opinionated</i>.</p>
+		<ul>
+			<li>&#160;Our Persona is Estelle, a 30-year-old associate at an East Coast law firm.</li>
+			<li>&#160; Estelle frequently travels for work to cities throughout the U.S.</li>
+			<li>&#160; Estelle is often pressed for time when traveling and needs information about local businesses quickly.</li>
+			<li>&#160; Estelle uses her smart phone almost exclusively when traveling for work.</li>
+			<li>&#160; Estelle is single, has no kids, has a decent amount of discretionary income, and eats out frequently.</li>
+			<li>&#160; Estelle is fairly <i>opinionated</i>.</li>
+		</ul>
 		<h4>Main Use Cases</h4>
 		<p>&#160;&#160;&#160;<b>1.)</b> Search for restaurant by name (static use case)
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to find specific restaurant.
@@ -31,14 +33,14 @@
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: Estelle has an account. Restaurant has a page.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Basic Pattern:
 		<ol>
-			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle gets a tip from the concierge at her Miami hotel to try a Haitian restaurant called Tap Tap.</li>
-			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle browses to Yelp page for Miami.</li>
-			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle uses Yelp's main search function to find Tap Tap.</li>
-			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Yelp's server searches internally for a potential match, limited geographically to the greater Miami area.</li>
-			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Yelp's server returns list of possible matches, each a link.</li>
-			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle selects best match offered by server and clicks.</li>
-			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Yelp's server takes Estelle to Yelp's <a href="http://www.yelp.com/biz/tap-tap-restaurant-miami-beach-2" target="_blank">Tap Tap</a> page.</li>
-			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle clicks on pictures, menu, and reviews listed on Tap Tap's Yelp page..</li>
+			<li>&#160;&#160;&#160;&#160;Estelle gets a tip from the concierge at her Miami hotel to try a Haitian restaurant called Tap Tap.</li>
+			<li>&#160;&#160;&#160;&#160;Estelle browses to Yelp page for Miami.</li>
+			<li>&#160;&#160;&#160;&#160;Estelle uses Yelp's main search function to find Tap Tap.</li>
+			<li>&#160;&#160;&#160;&#160;Yelp's server searches internally for a potential match, limited geographically to the greater Miami area.</li>
+			<li>&#160;&#160;&#160;&#160;Yelp's server returns list of possible matches, each a link.</li>
+			<li>&#160;&#160;&#160;&#160;Estelle selects best match offered by server and clicks.</li>
+			<li>&#160;&#160;&#160;&#160;Yelp's server takes Estelle to Yelp's <a href="http://www.yelp.com/biz/tap-tap-restaurant-miami-beach-2" target="_blank">Tap Tap</a> page.</li>
+			<li>&#160;&#160;&#160;&#160;Estelle clicks on pictures, menu, and reviews listed on Tap Tap's Yelp page..</li>
 		</ol>
 			&#160;&#160;&#160;<b>2.)</b> Allow Estelle to find other Yelp users she already knows from other sites. (dynamic use case)
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to locate other Yelp users based on other website affiliations.
