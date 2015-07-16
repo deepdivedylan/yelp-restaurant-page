@@ -94,7 +94,7 @@
 			</figure>
 			</div>
 		<br/><i>TO BE CONTINUED...</i>
-		<!--Next set up proper tables denoting relationships-->
+		<!--Next set up proper tables (via block div class) denoting relationships-->
 		<!--Next improve CSS style sheet(s)-->
 		<!--Next improve html, replace <br/> tags-->
 		<!--Next identify strong and weak entities, primary and foreign keys, and relations-->
