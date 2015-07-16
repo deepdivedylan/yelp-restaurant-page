@@ -4,7 +4,6 @@
 		<title>Yelp Restaurant Page Data Design Project</title>
 		<link type="image/ico" href="http://s3-media2.fl.yelpcdn.com/assets/2/www/img/118ff475a341/ico/favicon.ico" rel="shortcut icon" />
 		<link rel="stylesheet" type="text/css" href="styles.css">
-
 	</head>
 	<body>
 		<div class="container">
@@ -60,7 +59,10 @@
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Estelle clicks on Get Directions button inset on map.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Yelp's server acquires driving directions from third party website and provides same to Estelle in map form.</p>
 		<h2>Backend of Assignment</h2>
-		<br/><h5>Entities:</h5>
+		<h5>Entities:</h5>
+			&#160;&#160;&#160;User(s)
+			<br/>&#160;&#160;&#160;Restaurant(s)
+			<br/>&#160;&#160;&#160;Third Party Websites
 			<div class="row">
 				<div class="col-md-3">
 					<table class="table-bordered table-responsive">
@@ -72,12 +74,14 @@
 					</table>
 				</div>
 			</div>
-		<br/>&#160;&#160;&#160;User(s)
-		<br/>&#160;&#160;&#160;Restaurant(s)
-		<br/>&#160;&#160;&#160;Third Party Websites
+			<figure>
+				<img src="erd.jpg" alt="Entity Relationship Diagram">
+				<figcaption>Figure 1: Example ERD for the Yelp SQL Database</figcaption>
+			</figure>
 		<br/><i>TO BE CONTINUED...</i>
 		<!--Next set up proper tables denoting relationships-->
-		<!--Next create CSS style sheet(s)-->
+		<!--Next improve CSS style sheet(s)-->
+		<!--Next identify strong and weak entities, primary and foreign keys, and relations-->
 	</div>
 	</body>
 </html>
