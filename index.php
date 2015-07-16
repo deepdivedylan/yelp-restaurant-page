@@ -3,7 +3,7 @@
 	<head>
 		<title>Yelp Restaurant Page Data Design Project</title>
 		<link type="image/ico" href="http://s3-media2.fl.yelpcdn.com/assets/2/www/img/118ff475a341/ico/favicon.ico" rel="shortcut icon" />
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
 	</head>
 	<body>
 		<div class="container">
@@ -12,7 +12,7 @@
 			<h3>Yelp Restaurant Page</h3>
 			<h4>Trevor Rigler</h4>
 		</header>
-		<img src="yelp.jpg" alt="Yelp Logo" height="225" width="400">
+		<img src="images/yelp.jpg" alt="Yelp Logo" height="225" width="400">
 		<p>Yelp is a website consisting mainly of reviews of local
 			businesses, with an emphasis on restaurants. Founded in 2004 by two former PayPal employees, Yelp is now
 		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP" target="_blank">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</p>
@@ -30,15 +30,17 @@
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: Estelle, Restaurant
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: Estelle has an account. Restaurant has a page.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Basic Pattern:
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1. Estelle gets a tip from the concierge at her Miami hotel to try a Haitian restaurant called Tap Tap.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2. Estelle browses to Yelp page for Miami.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. Estelle uses Yelp's main search function to find Tap Tap.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server searches internally for a potential match, limited geographically to the greater Miami area.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server returns list of possible matches, each a link.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Estelle selects best match offered by server and clicks.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Yelp's server takes Estelle to Yelp's <a href="http://www.yelp.com/biz/tap-tap-restaurant-miami-beach-2" target="_blank">Tap Tap</a> page.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;7. Estelle clicks on pictures, menu, and reviews listed on Tap Tap's Yelp page..</p>
-		<p>&#160;&#160;&#160;<b>2.)</b> Allow Estelle to find other Yelp users she already knows from other sites. (dynamic use case)
+		<ol>
+			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle gets a tip from the concierge at her Miami hotel to try a Haitian restaurant called Tap Tap.</li>
+			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle browses to Yelp page for Miami.</li>
+			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle uses Yelp's main search function to find Tap Tap.</li>
+			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Yelp's server searches internally for a potential match, limited geographically to the greater Miami area.</li>
+			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Yelp's server returns list of possible matches, each a link.</li>
+			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle selects best match offered by server and clicks.</li>
+			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Yelp's server takes Estelle to Yelp's <a href="http://www.yelp.com/biz/tap-tap-restaurant-miami-beach-2" target="_blank">Tap Tap</a> page.</li>
+			<li>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Estelle clicks on pictures, menu, and reviews listed on Tap Tap's Yelp page..</li>
+		</ol>
+			&#160;&#160;&#160;<b>2.)</b> Allow Estelle to find other Yelp users she already knows from other sites. (dynamic use case)
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to locate other Yelp users based on other website affiliations.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: Estelle, other Yelp user(s), Third Party Website(s)(ex:Facebook)
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Assumptions: Estelle and the other users have accounts with Yelp <i>and</i> certain third party websites.
@@ -47,7 +49,7 @@
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3. Yelp's server offers for Estelle to log in to her Facebook account.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4. Yelp's server accesses Estelle's friend list on external Facebook server.
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5. Yelp's server cross-references existing Yelp users against Estelle's FB friend list.
-		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Estelle selects from list of her FB friends to whom to submit Yelp friend requests.</p>
+		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6. Estelle selects from list of her FB friends to whom to submit Yelp friend requests.</>
 		<p>&#160;&#160;&#160;<b>3.)</b> Estelle needs map and directions to Tap Tap. (dynamic use case)
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Goal: Allow Estelle to access map and directions for Tap Tap from third party website(s).
 		<br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Entities: Estelle, Restaurant, Third Party Website(s)(ex:Google Maps)
@@ -75,12 +77,13 @@
 				</div>
 			</div>
 			<figure>
-				<img src="erd.jpg" alt="Entity Relationship Diagram">
+				<img src="images/erd.jpg" alt="Entity Relationship Diagram">
 				<figcaption>Figure 1: Example ERD for the Yelp SQL Database</figcaption>
 			</figure>
 		<br/><i>TO BE CONTINUED...</i>
 		<!--Next set up proper tables denoting relationships-->
 		<!--Next improve CSS style sheet(s)-->
+		<!--Next improve html, replace <br/> tags-->
 		<!--Next identify strong and weak entities, primary and foreign keys, and relations-->
 	</div>
 	</body>
