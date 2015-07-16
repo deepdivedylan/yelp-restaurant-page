@@ -12,7 +12,7 @@
 			<h3>Yelp Restaurant Page</h3>
 			<h4>Trevor Rigler</h4>
 		</header>
-		<img src="images/yelp.jpg" alt="Yelp Logo" height="225" width="400">
+		<img src="images/yelp.jpg" alt="Yelp Logo" height="450" width="800">
 		<p>Yelp is a website consisting mainly of reviews of local
 			businesses, with an emphasis on restaurants. Founded in 2004 by two former PayPal employees, Yelp is now
 		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP" target="_blank">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</p>
@@ -70,8 +70,9 @@
 		</ol>
 		<h2>Backend of Assignment</h2>
 		<h5>Entities:</h5>
-			&#160;&#160;&#160;User(s)
-			<br/>&#160;&#160;&#160;Restaurant(s)
+			<br/>&#160;&#160;&#160;User(s) (strong entity)
+			<br/>&#160;&#160;&#160;Restaurant(s) (strong entity)
+			<br/>&#160;&#160;&#160;Review(s) (weak entity)
 			<br/>&#160;&#160;&#160;Third Party Websites
 			<div class="row">
 				<div class="col-md-3">
