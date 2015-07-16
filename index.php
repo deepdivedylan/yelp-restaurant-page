@@ -6,17 +6,19 @@
 		<link rel="stylesheet" type="text/css" href="CSS/styles.css">
 	</head>
 	<body>
-		<div class="container">
+	<div class="container">
 		<header>
 			<h1>Data Design Project</h1>
 			<h3>Yelp Restaurant Page</h3>
 			<h4>Trevor Rigler</h4>
-		</header>
+
 		<img src="images/yelp.jpg" alt="Yelp Logo" height="450" width="800">
 		<p>Yelp is a website consisting mainly of reviews of local
 			businesses, with an emphasis on restaurants. Founded in 2004 by two former PayPal employees, Yelp is now
 		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP" target="_blank">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</p>
-		<h2>Frontend of Assignment</h2>
+		</header>
+	</div>
+			<h2>Frontend of Assignment</h2>
 		<h3>Persona</h3>
 		<ul>
 			<li>&#160; Our Persona is Estelle, a 30-year-old associate at an East Coast law firm.</li>
@@ -85,10 +87,12 @@
 					</table>
 				</div>
 			</div>
+			<div class="imgDiagram">
 			<figure>
-				<img src="images/erd.jpg" alt="Entity Relationship Diagram">
+				<img src="images/erd.jpg" alt="Entity Relationship Diagram"/>
 				<figcaption>Figure 1: Example ERD for the Yelp SQL Database</figcaption>
 			</figure>
+			</div>
 		<br/><i>TO BE CONTINUED...</i>
 		<!--Next set up proper tables denoting relationships-->
 		<!--Next improve CSS style sheet(s)-->
