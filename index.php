@@ -11,12 +11,11 @@
 			<h1>Data Design Project</h1>
 			<h3>Yelp Restaurant Page</h3>
 			<h4>Trevor Rigler</h4>
-
+		</header>
 		<img src="images/yelp.jpg" alt="Yelp Logo" height="450" width="800">
 		<p>Yelp is a website consisting mainly of reviews of local
 			businesses, with an emphasis on restaurants. Founded in 2004 by two former PayPal employees, Yelp is now
 		a publicly traded company (<a href="https://www.nyse.com/quote/XNYS:YELP" target="_blank">NYSE:YELP</a>) with approximately <b>135 monthly visitors</b>.</p>
-		</header>
 	</div>
 			<h2>Frontend of Assignment</h2>
 		<h3>Persona</h3>
