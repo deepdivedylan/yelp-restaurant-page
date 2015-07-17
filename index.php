@@ -71,10 +71,9 @@
 		</ol>
 		<h2>Backend of Assignment</h2>
 		<h5>Entities:</h5>
-			<br/>&#160;&#160;&#160;User(s) (strong entity)
+			<br/>&#160;&#160;&#160;Profile(s) (strong entity)
 			<br/>&#160;&#160;&#160;Restaurant(s) (strong entity)
 			<br/>&#160;&#160;&#160;Review(s) (weak entity)
-			<br/>&#160;&#160;&#160;Third Party Websites
 			<div class="row">
 				<div class="col-md-3">
 					<table class="table-bordered table-responsive">
@@ -92,7 +91,6 @@
 				<figcaption>Figure 1: Example ERD for the Yelp SQL Database</figcaption>
 			</figure>
 			</div>
-		<br/><i>TO BE CONTINUED...</i>
 		<!--Next set up proper tables (via block div class) denoting relationships-->
 		<!--Next improve CSS style sheet(s)-->
 		<!--Next improve html, replace <br/> tags-->
