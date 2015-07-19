@@ -142,9 +142,5 @@
 				<figcaption>Figure 1: Example ERD for the Yelp SQL Database</figcaption>
 			</figure>
 			</div>
-		<!--Next set up proper tables (via block div class) denoting relationships-->
-		<!--Next improve CSS style sheet(s)-->
-		<!--Next improve html, replace <br/> tags-->
-		<!--Next identify strong and weak entities, primary and foreign keys, and relations-->
 	</body>
 </html>
