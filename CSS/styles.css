@@ -1,39 +1,40 @@
 .imgDiagram {
 	float:left;
-}
+} /* this is for ERD at bottom of page, so it floats under the text leading up to it */
 
 img {
 	float: right;
 	margin: 0px;
-}
+}  /* this is for Yelp logo at top of page, so it goes to the right, allowing text to go alongside on left */
 
 h1 {
 	font-family:Arial, Helvetica, sans-serif; font-size:300%;
-}
+}  /* a simple font family for the h1-5 */
 h2 {
 	font-family:Arial, Helvetica, sans-serif; font-size:200%;
-}
+}/* a simple font family for the h1-5 */
 h3 {
 	font-family:Arial, Helvetica, sans-serif; font-size:150%;
-}
+}  /* a simple font family for the h1-5 */
 h4 {
 	font-family:Arial, Helvetica, sans-serif; font-size:120%;
-}
+}  /* a simple font family for the h1-5 */
 h5 {
 	font-family:Arial, Helvetica, sans-serif; font-size:100%;
-}
+}  /* a simple font family for the h1-5 */
 p {
 	font-family:"Times New Roman", Times, serif;
-}
+}  /* a readable serif font for paragraph text */
 body {
 	font-family:"Times New Roman", Times, serif;
-}
-/*the above is probably redundant, but I couldn't get it to work otherwise*/
+} /* a readable serif text for the body as a whole, kind of a catch-all */
+
+/*the above is probably redundant, but I couldn't get it to work otherwise */
 
 .Table
 {
 	display: table;
-}
+} /* for the tables describing elements and attributes */
 .Title
 {
 	display: table-caption;
@@ -58,4 +59,4 @@ body {
 	border-width: thin;
 	padding-left: 5px;
 	padding-right: 5px;
-}
+} /* tidy little cells in table */
