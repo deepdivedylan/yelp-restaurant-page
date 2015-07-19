@@ -74,17 +74,68 @@
 			<br/>&#160;&#160;&#160;Profile(s) (strong entity)
 			<br/>&#160;&#160;&#160;Restaurant(s) (strong entity)
 			<br/>&#160;&#160;&#160;Review(s) (weak entity)
-			<div class="row">
-				<div class="col-md-3">
-					<table class="table-bordered table-responsive">
-						<tr><th>User</th></tr>
-						<tr><td>userId - primary key</td></tr>
-						<tr><td>email</td></tr>
-						<tr><td>password</td></tr>
-						<tr><td>picture</td></tr>
-					</table>
+		<br/>
+		<div class="Table">
+			<div class="Title">
+				<p>Entities and their Attributes</p>
+			</div>
+			<div class="Heading">
+				<div class="Cell">
+					<p>Profile</p>
+				</div>
+				<div class="Cell">
+					<p>Review</p>
+				</div>
+				<div class="Cell">
+					<p>Restaurant</p>
 				</div>
 			</div>
+			<div class="Row">
+				<div class="Cell">
+					<p>profileId (primary)</p>
+				</div>
+				<div class="Cell">
+					<p>reviewId (primary)</p>
+				</div>
+				<div class="Cell">
+					<p>restaurantId (primary)</p>
+				</div>
+			</div>
+			<div class="Row">
+				<div class="Cell">
+					<p>email</p>
+				</div>
+				<div class="Cell">
+					<p>content</p>
+				</div>
+				<div class="Cell">
+					<p>address</p>
+				</div>
+			</div>
+			<div class="Row">
+				<div class="Cell">
+					<p>password</p>
+				</div>
+				<div class="Cell">
+					<p>date</p>
+				</div>
+				<div class="Cell">
+					<p>   </p>
+				</div>
+			</div>
+			<div class="Row">
+				<div class="Cell">
+					<p>bio</p>
+				</div>
+				<div class="Cell">
+					<p>    </p>
+				</div>
+				<div class="Cell">
+					<p>    </p>
+				</div>
+			</div>
+		</div>
+		<br/>
 			<div class="imgDiagram">
 			<figure>
 				<img src="images/erd.jpg" alt="Entity Relationship Diagram"/>
