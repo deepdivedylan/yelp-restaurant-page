@@ -75,8 +75,8 @@
 			<br/>&#160;&#160;&#160;Restaurant(s) (strong entity)
 			<br/>&#160;&#160;&#160;Review(s) (weak entity)
 		<br/>
-		<div class="Table">
-			<div class="Title">
+		<div class="Table"> <!-- I stole this code from somewhere and edited it for my own purposes. -->
+			<div class="Title"> <!-- I think I understand how it works, but I would not have been able to come up with this on my own -->
 				<p>Entities and their Attributes</p>
 			</div>
 			<div class="Heading">
